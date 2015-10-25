@@ -19,7 +19,7 @@ Here is a quick example using only one variable.
 
 ```php
 <?php
-$temp = new Tempting_Engine(array(__DIR__));
+$temp = new Tempting\Tempting_Engine(array(__DIR__));
 echo $temp->Display('page',array('title' => 'Hello World!'));
 ```
 
