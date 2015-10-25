@@ -40,9 +40,14 @@ Contents of 'page'
 
 This will generate a html page with title and heading set to the contents of the 'title' variable.
 
-A documentation? Count me in:
+Documentation
 ---------------
 
 Of course this covers only a small part of what's possible. If you want to learn more about Tempting you can just read the documentation on Github.
 
-**The documentation is currently work in progress. The readme will be updated as soon as the documentation is ready! Please pardon the inconvenience.**
+1. [Introduction](https://github.com/Chrisblue/Tempting/wiki)
+2. [Tags](https://github.com/Chrisblue/Tempting/wiki/Tags)
+  * [Variables](https://github.com/Chrisblue/Tempting/wiki/Variables)
+  * [Partials](https://github.com/Chrisblue/Tempting/wiki/Partials)
+  * [Lists](https://github.com/Chrisblue/Tempting/wiki/Lists)
+  * [Placeholder](https://github.com/Chrisblue/Tempting/wiki/Placeholder)
