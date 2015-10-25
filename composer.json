@@ -1,0 +1,21 @@
+{
+    "name": "tempting/tempting",
+    "description": "Fast and lightweight PHP template engine.",
+    "keywords": ["templating", "tempting"],
+    "homepage": "https://github.com/chrisblue/tempting",
+    "type": "library",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Christian Rosenbauer",
+            "email": "admin@chrisblue.org",
+            "homepage": "http://chrisblue.org"
+        }
+    ],
+    "require": {
+        "php": ">=5.4"
+    },
+    "autoload": {
+        "psr-4": { "Tempting\\": "src/" }
+    }
+}
