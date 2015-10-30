@@ -214,11 +214,8 @@ Class Tempting_Engine {
                     $group_replacements[$group[0]] = $replacements;
                     
                 }elseif ($group[1] == '^') {
-                    // Behaviour for inverts
-                    if (($current_array === array()) || empty($current_array) ) {
-                        $group_replacements[$group[0]] = $group[3];
-                    }
-                    
+                    // Behaviour for placeholder
+                    $group_replacements[$group[0]] = ($current_array === array() ? $group[3] : '' );
                 }
             }else{
                 // Behaviour for empty arrays
